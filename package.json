@@ -1,20 +1,15 @@
 {
-  "name": "grubhub-redesign",
+  "name": "backend",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Nothier96/grubhub-redesign.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Nothier96/grubhub-redesign/issues"
-  },
-  "homepage": "https://github.com/Nothier96/grubhub-redesign#readme"
+  "dependencies": {
+    "node": "^18.7.0"
+  }
 }
