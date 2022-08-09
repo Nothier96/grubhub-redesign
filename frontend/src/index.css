@@ -123,3 +123,20 @@
 .perks-img {
     height: 100px;
 }
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.hero-info {
+    width: 50%;
+    padding: 3rem 3rem 7rem 7rem;
+    line-height: 1.5;
+}
+
+.hero-img {
+    width: 50%;
+}
