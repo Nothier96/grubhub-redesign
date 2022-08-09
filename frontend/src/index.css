@@ -140,3 +140,37 @@
 .hero-img {
     width: 50%;
 }
+
+.signup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    margin-top: 40px;
+}
+
+.signup-title {
+    width: 50%;
+    padding: 3rem;
+}
+
+.signup-info {
+    width: 50%;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #efefef;
+    padding: 5rem;
+}
+
+.about-title {
+    width: 50%;
+    text-align: center;
+}
+
+.about-info {
+    width: 50%;
+}
