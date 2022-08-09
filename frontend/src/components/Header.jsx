@@ -2,18 +2,18 @@ import { Link } from "react-router-dom";
 
 function Header() {
   return (
-      <div className="header">
+      <div className="homepage-header">
         <section className="header-img">
           <img 
             src="https://media-cdn.grubhub.com/image/upload/f_auto,fl_lossy,q_auto,c_crop,g_north_west,h_1400,w_1500/v1656688653/homepage/DfxwD.png"
             className="header-cover-img"
-            alt="food background"
+            alt="food-background"
           />
 
           <img 
             src="https://media-cdn.grubhub.com/image/upload/v1657121635/homepage/GH_logo_svg.svg"
             alt="logo"
-            class="logo"
+            class="homepage-logo"
           />
         </section>
 

@@ -6,7 +6,7 @@
 }
 
 /* *** Hompepage header styling *** */
-.header {
+.homepage-header {
     display: flex;
     flex-flow: wrap;
     height: 100vh;
@@ -24,7 +24,7 @@
     left: 0;
 }
 
-.logo {
+.homepage-logo {
     position: absolute;
     top: 35px;
     left: 30px;
@@ -88,7 +88,7 @@
     justify-content: center;
 }
 
-input {
+.food-search-form input {
     width: 55%;
     padding: 14px 20px;
     display: inline-block;
