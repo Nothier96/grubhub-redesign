@@ -1,5 +1,7 @@
 function SignInpage() {
-  return <div>SignInpage</div>;
+  return (
+    <div>SignInpage</div>
+  )
 }
 
-export default SignInpage;
+export default SignInpage
