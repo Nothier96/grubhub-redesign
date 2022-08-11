@@ -175,6 +175,14 @@
     width: 50%;
 }
 
+/* Contact CSS */
+.contactform {
+    margin: 40px;
+    font-size: 20px;
+    font-weight: 700;
+    text-shadow: 0 0 3px #ffffff;
+  }
+
 /* *** Hompepage media queries *** */
 
 /* Extra small devices (phones, 600px and down) */
