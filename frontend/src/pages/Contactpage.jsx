@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
-import Button from 'react-bootstrap/Button';
-import Col from 'react-bootstrap/Col';
-import Form from 'react-bootstrap/Form';
-import InputGroup from 'react-bootstrap/InputGroup';
-import Row from 'react-bootstrap/Row';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import React, { useState } from "react";
+import Button from "react-bootstrap/Button";
+import Col from "react-bootstrap/Col";
+import Form from "react-bootstrap/Form";
+import InputGroup from "react-bootstrap/InputGroup";
+import Row from "react-bootstrap/Row";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function Contactpage() {
   const [validated, setValidated] = useState(false);
@@ -31,7 +31,7 @@ function Contactpage() {
             defaultValue=""
           />
           <Form.Control.Feedback type="invalid">
-              Invalid First Name.
+            Invalid First Name.
           </Form.Control.Feedback>
         </Form.Group>
         <Form.Group as={Col} md="4" controlId="validationCustom02">
@@ -43,14 +43,18 @@ function Contactpage() {
             defaultValue=""
           />
           <Form.Control.Feedback type="invalid">
-              Invalid Last Name.
+            Invalid Last Name.
           </Form.Control.Feedback>
         </Form.Group>
         <Form.Group as={Col} md="4" controlId="validationCustomUsername">
           <Form.Label>Email address</Form.Label>
           <InputGroup hasValidation>
             <InputGroup.Text id="inputGroupPrepend">@</InputGroup.Text>
-            <Form.Control type="email" placeholder="name@example.com" required/>
+            <Form.Control
+              type="email"
+              placeholder="name@example.com"
+              required
+            />
             <Form.Control.Feedback type="invalid">
               Invalid Email.
             </Form.Control.Feedback>
@@ -73,8 +77,8 @@ function Contactpage() {
           </Form.Control.Feedback>
         </Form.Group>
         <Form.Group controlId="form.Textarea">
-            <Form.Label>Comment</Form.Label>
-            <Form.Control as="textarea" rows={3} required />
+          <Form.Label>Comment</Form.Label>
+          <Form.Control as="textarea" rows={3} required />
           <Form.Control.Feedback type="invalid">
             Please enter your feedback.
           </Form.Control.Feedback>
@@ -92,6 +96,5 @@ function Contactpage() {
     </Form>
   );
 }
-
 
 export default Contactpage;
