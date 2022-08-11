@@ -20,7 +20,7 @@ function Contactpage() {
   };
 
   return (
-    <Form noValidate validated={validated} onSubmit={handleSubmit}>
+    <Form noValidate validated={validated} onSubmit={handleSubmit} className="contactform" style={{ backgroundImage: "url(https://www.boredpanda.com/blog/wp-content/uploads/2019/11/How-simple-recipes-turned-into-funny-dishes-5ddcfa480c3c5__700.jpg)" }}>
       <Row className="mb-3">
         <Form.Group as={Col} md="4" controlId="validationCustom01">
           <Form.Label>First name</Form.Label>
