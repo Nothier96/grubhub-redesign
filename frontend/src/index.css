@@ -174,3 +174,8 @@
 .about-info {
     width: 50%;
 }
+
+/* Contact CSS */
+.contactform {
+    margin: 40px;
+}
