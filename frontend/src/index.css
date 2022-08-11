@@ -178,4 +178,7 @@
 /* Contact CSS */
 .contactform {
     margin: 40px;
-}
+    font-size: 20px;
+    font-weight: 700;
+    text-shadow: 0 0 3px #ffffff;
+  }
