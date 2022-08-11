@@ -1,5 +1,6 @@
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
+import Rating from "./Rating";
 
 const Orders = ({ order }) => {
   return (
@@ -8,6 +9,19 @@ const Orders = ({ order }) => {
       <Card.Body>
         <Card.Title>{order.name}</Card.Title>
         <Card.Text>{order.description}</Card.Text>
+        <Card.Text as="div">
+          <div className="my-3">
+            <strong>
+              {" "}
+              <h3>${order.price}</h3>
+            </strong>
+          </div>
+        </Card.Text>
+        <Card.Text as="div">
+          <div className="my-3">
+            <Rating value={order.rating} />
+          </div>
+        </Card.Text>
         <Button variant="primary">Order</Button>
       </Card.Body>
     </Card>
