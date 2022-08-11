@@ -107,7 +107,6 @@
     font-size: 1rem;
 }
 
-/* *** Hompepage perks styling *** */
 .perks-section {
     display: flex;
     align-items: center;
@@ -125,7 +124,6 @@
     height: 100px;
 }
 
-/* *** Hompepage hero styling *** */
 .hero {
     display: flex;
     justify-content: center;
@@ -143,7 +141,6 @@
     width: 50%;
 }
 
-/* *** Hompepage sign up styling *** */
 .signup {
     display: flex;
     align-items: center;
@@ -161,7 +158,6 @@
     width: 50%;
 }
 
-/* *** Hompepage about styling *** */
 .about {
     display: flex;
     align-items: center;
@@ -179,126 +175,3 @@
     width: 50%;
 }
 
-/* *** Hompepage media queries *** */
-
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    .homepage-header {
-        display: flex;
-        flex-direction: column;
-        flex-flow: wrap;
-        min-height: 100vh;
-    }
-    
-    .header-img {
-        width: 100%;
-        min-height: 80vh;
-    }
-    
-    .header-info {
-        display: flex;
-        flex-direction: column;
-        width: 80%;
-    }
-    
-    .home-navbar {
-        align-self: center;
-    }
-    
-    .home-navbar ul {
-        margin-bottom: 50px;
-        padding: 5px 5px 0px 0px;
-    
-    }
-    
-    .home-navbar li {
-        padding: 10px 0 0 0; 
-    }
-    
-    .home-navbar a {
-        padding: 0px 10px;
-    }
-    
-    .food-search {
-        height: 100%;
-        flex-direction: column;
-        padding-bottom: 50px;
-    }
-    
-    .food-search-title {
-        padding-left: 10px;
-    }
-    
-    .food-search-form input {
-        width: 65%;
-        margin-left: 10px;
-    }
-    
-    .food-search-btn {
-        width: 35%;
-        margin-left: 10px;
-    }
-
-    .perks-section {
-        flex-direction: column;
-        padding: 1rem 1rem;
-        margin-top: 300px;
-    }
-    
-    .perk-card {
-        text-align: center;
-        padding: 20px 10px;
-        line-height: 1.5;
-    }
-    
-    .perks-img {
-        height: 80px;
-    }
-
-    .hero {
-        flex-direction: column;
-    }
-    
-    .hero-info {
-        width: 100%;
-        padding: 3rem 2rem 7rem 2rem;
-    }
-    
-    .hero-img {
-        height: 500px;
-        width: 400px;
-        margin-left: -200px;
-    }
-
-    .signup {
-        flex-direction: column;
-        padding: 2rem;
-    }
-    
-    .signup-title {
-        width: 100%;
-        padding: 1rem;
-    }
-    
-    .signup-info {
-        width: 100%;
-    }
-
-    .about {
-        flex-direction: column;
-        padding: 2.5rem;
-    }
-    .about-title {
-        width: 100%;
-    }
-    
-    .about-info {
-        width: 100%;
-    }
-}
-/* Medium devices (landscape tablets, 768px and up) */
-/* @media only screen and (min-width: 768px) {...} */
-/* Large devices (laptops/desktops, 992px and up) */
-/* @media only screen and (min-width: 992px) {...} */
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-/* @media only screen and (min-width: 1200px) {...} */
