@@ -174,6 +174,25 @@
   width: 50%;
 }
 
+
+/* Sign in Page CSS */
+body {
+    background-image: url(/public/images/backgroundimg.png);
+}
+form {
+    text-align: center;
+    margin-top: 250px;
+      background-image: linear-gradient(to right, #ffbf00, #02742d);  
+    width: 500px;
+    margin-left: 475px;
+}
+.form-control {
+    text-align: center;
+}
+input#formBasicCheckbox.form-check-input {
+    margin-left: -23px;
+}
+
 /* Contact CSS */
 .contactform {
   margin: 40px;
@@ -397,3 +416,4 @@
 /* @media only screen and (min-width: 992px) {...} */
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 /* @media only screen and (min-width: 1200px) {...} */
+
