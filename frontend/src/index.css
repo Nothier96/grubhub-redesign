@@ -175,3 +175,21 @@
     width: 50%;
 }
 
+/* Sign in Page CSS */
+body {
+    background-image: url(/public/images/backgroundimg.png);
+}
+form {
+    text-align: center;
+    margin-top: 250px;
+    /* background-color: rgba(63, 124, 33, 0.891); */
+      background-image: linear-gradient(to bottom right, #eaff00, #02742d);  
+    width: 500px;
+    margin-left: 475px;
+}
+.form-control {
+    text-align: center;
+}
+input#formBasicCheckbox.form-check-input {
+    margin-left: -23px;
+}
