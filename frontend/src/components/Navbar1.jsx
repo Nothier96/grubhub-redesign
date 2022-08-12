@@ -11,7 +11,7 @@ const Navbar1 = () => {
         <Container>
           <LinkContainer to="/">
             <Navbar.Brand>
-              <img src="/images/realogo.png" alt="logo" />
+              <img src="/images/logo.png" alt="logo" />
             </Navbar.Brand>
           </LinkContainer>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
