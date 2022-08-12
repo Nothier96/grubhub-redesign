@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node backend/server",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +15,7 @@
     "dotenv": "^16.0.1",
     "express": "^4.18.1",
     "mysql": "^2.18.1",
-    "node": "^18.7.0"
+    "node": "^18.7.0",
+    "path": "^0.12.7"
   }
 }
