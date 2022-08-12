@@ -182,8 +182,7 @@ body {
 form {
     text-align: center;
     margin-top: 250px;
-    /* background-color: rgba(63, 124, 33, 0.891); */
-      background-image: linear-gradient(to bottom right, #eaff00, #02742d);  
+      background-image: linear-gradient(to right, #ffbf00, #02742d);  
     width: 500px;
     margin-left: 475px;
 }
