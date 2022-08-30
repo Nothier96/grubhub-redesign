@@ -1,0 +1,16 @@
+/* Sign in Page CSS */
+.Dom1 {
+  background-image: url(/public/images/backgroundimg.png);
+}
+.Dom {
+  text-align: center;
+  margin-top: 250px;
+  width: 500px;
+  margin-left: 475px;
+}
+.form-control {
+  text-align: center;
+}
+input#formBasicCheckbox.form-check-input {
+  margin-left: -23px;
+}
