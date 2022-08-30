@@ -20,7 +20,7 @@ db.connect((err) => {
   if (err) {
     throw err;
   }
-  console.log("Database Connection is Successful");
+  console.log("Database Connection success");
 });
 
 app.get("/orders", (req, res) => {
